@@ -5,4 +5,22 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>myMQTT</name>
   <description>a simple mqtt client with a publisher and a subscriber</description>
+  
+  <dependencies>
+   <dependency>
+      <groupId>org.eclipse.paho</groupId>
+      <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+      <version>1.2.5</version>
+   </dependency>
+   <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.36</version>
+   </dependency>
+   <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.36</version>
+   </dependency>
+  </dependencies>
 </project>
